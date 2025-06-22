@@ -1,3 +1,5 @@
+import os
+
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/etc/secrets/firebase-creds.json"
 
 from fastapi import FastAPI,Request,Query
